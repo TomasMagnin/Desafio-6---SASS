@@ -1,0 +1,63 @@
+/* ----------------------------------------------- Formulario de Contactos ------------------------------------------- */
+
+.section{
+    background-color: var(--clr-card-back);
+    height: 140vh;
+    color: whitesmoke;
+    border-top: var(--clr-card-back) 4px solid;
+    .Titulo-formulario{
+        font-size: 3rem;
+        color: orange;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 700;
+        padding: auto;
+        margin: 15px;
+        padding: 5px;
+        text-align: center;
+    }
+}
+
+
+.formulario{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    &_input{
+        padding: 15px;
+        margin: 10px;
+        width: 60vw;
+        border: 5px solid whitesmoke;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    &_input >input{
+        margin-left: 20px;
+        padding-left: 30px;
+        border-radius: 8px;
+        width: 15vw;
+        &:hover{
+            background-color: blueviolet;
+            color: whitesmoke;
+        }
+    }
+    &_input >select{
+        margin-left: 20px;
+        padding-left: 30px;
+        border-radius: 8px;
+        width: 15vw;  
+    }
+    &_input :active{
+        color: orange;
+    }
+    
+}
+
+
+
+
+
